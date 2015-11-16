@@ -1,13 +1,3 @@
-/*
-	Qian Yan
-	CSE 154
-	Assignment 7
-	This is the JavaScript file for the page.
-	Extra Freature included:
-		#1 End-of-game Notification
-		#5 Multiple Backgrounds
-*/
-
 (function() {
 
 	"use strict";
