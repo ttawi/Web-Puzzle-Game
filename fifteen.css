@@ -1,0 +1,56 @@
+/*
+	Qian Yan
+	CSE 154
+	Assignment 7
+	This is the CSS file for the page.
+*/
+
+body, button {
+	text-align: center;
+	font-family: cursive;
+	font-size: 14pt;
+}
+
+#puzzlearea, #message, fieldset {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#puzzlearea {
+	width: 400px;
+	height: 400px;
+	position: relative;
+}
+
+.block {
+	border: solid 5px black;
+	font-size: 40pt;
+	height: 90px;
+	position: absolute;
+	width: 90px;
+	background-image: url("https://webster.cs.washington.edu/students/qiany7/hw7/background.jpg");
+}
+
+.movable:hover {
+	border-color: red;
+	color: red;
+	cursor: pointer;
+}
+
+/*
+Extra Feature: the style for the win message and image selector
+*/
+#message {
+	border: dashed 3px rgb(90, 90, 221);
+	background-color: rgb(190, 190, 228);
+	font-size: 25pt;
+	font-weight: bold;
+	position: absolute;
+	top: 150px;
+	width: 394px;
+	line-height: 100px;
+}
+
+fieldset {
+	width: 400px;
+}
